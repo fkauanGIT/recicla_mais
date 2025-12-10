@@ -110,60 +110,60 @@ class _RegistrationFormState extends State<RegistrationForm> {
 
           const SizedBox(height: 24),
 
-          const SectionLabel("Nome completo *"),
-          CustomInput(controller: nome, hint: "Seu Nome Completo *"),
+          const SectionLabel("Nome completo"),
+          CustomInput(controller: nome, hint: "Seu Nome Completo"),
           const SizedBox(height: 20),
 
-          const SectionLabel("Email *"),
+          const SectionLabel("Email"),
           CustomInput(
             controller: email,
-            hint: "Digite o seu Email *",
+            hint: "Digite o seu Email",
             keyboardType: TextInputType.emailAddress,
           ),
           const SizedBox(height: 20),
 
-          const SectionLabel("Telefone *"),
+          const SectionLabel("Telefone"),
           CustomInput(
             controller: telefone,
-            hint: "Digite o seu Número *",
+            hint: "Digite o seu Número",
             keyboardType: TextInputType.phone,
           ),
           const SizedBox(height: 20),
 
-          const SectionLabel("Data de nascimento *"),
+          const SectionLabel("Data de nascimento"),
           CustomInput(
             controller: nascimento,
-            hint: "dd/mm/aaaa *",
+            hint: "dd/mm/aaaa",
             keyboardType: TextInputType.datetime,
           ),
           const SizedBox(height: 20),
 
-          const SectionLabel("Gênero *"),
+          const SectionLabel("Gênero"),
           CustomInput(
             controller: genero,
-            hint: "Selecione *",
+            hint: "Selecione",
             readOnly: true,
             onTap: _abrirGenero,
           ),
           const SizedBox(height: 20),
 
-          const SectionLabel("Cidade - Estado *"),
-          CustomInput(controller: cidadeEstado, hint: "Cidade - UF *"),
+          const SectionLabel("Cidade - Estado"),
+          CustomInput(controller: cidadeEstado, hint: "Cidade - UF"),
           const SizedBox(height: 20),
 
-          const SectionLabel("Endereço, Nº *"),
-          CustomInput(controller: endereco, hint: "Rua, Número, Complemento *"),
+          const SectionLabel("Endereço, Nº"),
+          CustomInput(controller: endereco, hint: "Rua, Número, Complemento"),
           const SizedBox(height: 20),
 
-          const SectionLabel("Senha *"),
-          CustomInput(controller: senha, obscure: true, hint: "Crie uma senha *"),
+          const SectionLabel("Senha"),
+          CustomInput(controller: senha, obscure: true, hint: "Crie uma senha"),
           const SizedBox(height: 20),
 
-          const SectionLabel("Confirmar senha *"),
+          const SectionLabel("Confirmar senha"),
           CustomInput(
             controller: confirmarSenha,
             obscure: true,
-            hint: "Digite a senha novamente *",
+            hint: "Digite a senha novamente",
           ),
 
           const SizedBox(height: 28),
